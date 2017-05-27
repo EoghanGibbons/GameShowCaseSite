@@ -1,0 +1,4 @@
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\ServerManager\bin\Debug\ServerManager.dll
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\ServerManager\bin\Debug\ServerManager.pdb
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\ServerManager\obj\Debug\ServerManager.dll
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\ServerManager\obj\Debug\ServerManager.pdb

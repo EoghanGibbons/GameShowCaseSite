@@ -1,0 +1,5 @@
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\SystemSettings\bin\Debug\SystemSettings.dll
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\SystemSettings\bin\Debug\SystemSettings.pdb
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\SystemSettings\obj\Debug\SystemSettings.csprojResolveAssemblyReference.cache
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\SystemSettings\obj\Debug\SystemSettings.dll
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\SystemSettings\obj\Debug\SystemSettings.pdb

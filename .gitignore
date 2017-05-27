@@ -44,4 +44,12 @@ $RECYCLE.BIN/
 .AppleDesktop
 Network Trash Folder
 Temporary Items
+aspnet_client
+EoghanGibbons/bower_components
+packages
+.vs
 .apdisk
+*.suo
+*.dll
+*.cache
+*.pdb

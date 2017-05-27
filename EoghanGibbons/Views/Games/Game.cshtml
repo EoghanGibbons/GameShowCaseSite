@@ -1,0 +1,27 @@
+﻿@model EoghanGibbons.Models.Games.GameViewModel
+
+@{
+    ViewBag.Title = Model.GameTitle;
+}
+
+@section scripts{
+    @Scripts.Render("~/Games/Breakout")
+
+    <script>
+        $("document").ready(function () {
+            main();
+        });
+    </script>
+}
+
+<div class="container">
+    <canvas id='screen' height="1080" width="1920">
+        
+    </canvas>
+</div>
+@if (Request.IsLocal)
+{
+    <div id="fpscontainer">
+        
+    </div>   
+}

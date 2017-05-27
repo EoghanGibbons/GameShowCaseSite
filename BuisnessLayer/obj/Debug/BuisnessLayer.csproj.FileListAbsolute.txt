@@ -1,0 +1,9 @@
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\bin\Debug\BuisnessLayer.dll
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\bin\Debug\BuisnessLayer.pdb
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\obj\Debug\BuisnessLayer.dll
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\obj\Debug\BuisnessLayer.pdb
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\obj\Debug\BuisnessLayer.csprojResolveAssemblyReference.cache
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\bin\Debug\SiteEntities.dll
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\bin\Debug\EntityFramework.dll
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\bin\Debug\SiteEntities.pdb
+C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\bin\Debug\EntityFramework.xml
