@@ -7,3 +7,27 @@ C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLaye
 C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\bin\Debug\EntityFramework.dll
 C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\bin\Debug\SiteEntities.pdb
 C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\BuisnessLayer\bin\Debug\EntityFramework.xml
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\BuisnessLayer.dll
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\BuisnessLayer.pdb
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\GoogleDriveAccess.dll
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\SiteEntities.dll
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Google.Apis.Auth.dll
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Google.Apis.Drive.v3.dll
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Google.Apis.Core.dll
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Google.Apis.dll
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\EntityFramework.dll
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\GoogleDriveAccess.pdb
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\SiteEntities.pdb
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Google.Apis.Auth.pdb
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Google.Apis.Auth.xml
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Google.Apis.Drive.v3.xml
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Google.Apis.Core.pdb
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Google.Apis.Core.xml
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Google.Apis.pdb
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Google.Apis.xml
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\EntityFramework.xml
+C:\Projects\GameShowCaseSite\BuisnessLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\GameShowCaseSite\BuisnessLayer\obj\Debug\BuisnessLayer.csprojResolveAssemblyReference.cache
+C:\Projects\GameShowCaseSite\BuisnessLayer\obj\Debug\BuisnessLayer.dll
+C:\Projects\GameShowCaseSite\BuisnessLayer\obj\Debug\BuisnessLayer.pdb

@@ -18,8 +18,20 @@
 
     @Html.Partial("Partials/_Footer")
 </div>
+    
+<script>
+    let DevMode = false;
+</script>
+
+@if (Request.IsLocal)
+{
+    <script>
+        DevMode = true;
+    </script>
+}
 
 @Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/Underscore")
 @Scripts.Render("~/bundles/bootstrap")
 
 @RenderSection("scripts", false)

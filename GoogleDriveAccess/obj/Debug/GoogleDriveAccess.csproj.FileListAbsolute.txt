@@ -26,3 +26,23 @@ C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\GoogleDriveA
 C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\GoogleDriveAccess\obj\Debug\GoogleDriveAccess.csprojResolveAssemblyReference.cache
 C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\GoogleDriveAccess\obj\Debug\GoogleDriveAccess.dll
 C:\Users\MyUser\documents\visual studio 2015\Projects\EoghanGibbons\GoogleDriveAccess\obj\Debug\GoogleDriveAccess.pdb
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\GoogleDriveAccess.dll.config
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\GoogleDriveAccess.dll
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\GoogleDriveAccess.pdb
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Google.Apis.Auth.dll
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Google.Apis.Core.dll
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Google.Apis.dll
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Google.Apis.Drive.v3.dll
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Zlib.Portable.dll
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Google.Apis.xml
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Google.Apis.Auth.xml
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Google.Apis.Core.xml
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Google.Apis.Drive.v3.xml
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\bin\Debug\Zlib.Portable.xml
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\obj\Debug\GoogleDriveAccess.csprojResolveAssemblyReference.cache
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\obj\Debug\GoogleDriveAccess.dll
+C:\Projects\GameShowCaseSite\GoogleDriveAccess\obj\Debug\GoogleDriveAccess.pdb

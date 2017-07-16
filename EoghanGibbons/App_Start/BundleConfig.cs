@@ -17,13 +17,23 @@ namespace EoghanGibbons
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                 "~/bower_components/modernizer/modernizr.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/Underscore").Include("~/bower_components/underscore/underscore.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/bower_components/bootstrap/dist/js/bootstrap.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/ng-ws").Include(
                 "~/bower_components/ng-wg/ng-ws.js"));
 
-            bundles.Add(new ScriptBundle("~/Games/Breakout").IncludeDirectory("~/Content/Games/MultiplayerBreakout", "*.js"));
+            bundles.Add(new ScriptBundle("~/GameLibrary").IncludeDirectory("~/Content/Games/Library", "*.js", true));
+
+            bundles.Add(new ScriptBundle("~/Phaser").Include(
+                "~/bower_components/phaser-ce/build/pixi.js",
+                "~/bower_components/phaser-ce/build/phaser.js",
+                "~/bower_components/phaser-ce/build/p2.js"
+            ));
+
+            bundles.Add(new ScriptBundle("~/Games/Breakout").IncludeDirectory("~/Content/Games/MultiplayerBreakout", "*.js", true));
         }
     }
 }

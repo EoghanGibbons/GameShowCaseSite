@@ -5,23 +5,24 @@
 }
 
 @section scripts{
+    @Scripts.Render("~/Phaser")
+    @Scripts.Render("~/GameLibrary")
     @Scripts.Render("~/Games/Breakout")
 
     <script>
-        $("document").ready(function () {
-            main();
+        $("document").ready(function ()
+        {
+            let x = $("#screen");
+
+            const myGame = new MultiplayerBreakout(x.width(), 600, @Html.Raw(Model.UserGameData));
+
+            myGame.Start();
         });
     </script>
 }
 
 <div class="container">
-    <canvas id='screen' height="1080" width="1920">
+    <div id="screen">
         
-    </canvas>
+    </div>
 </div>
-@if (Request.IsLocal)
-{
-    <div id="fpscontainer">
-        
-    </div>   
-}

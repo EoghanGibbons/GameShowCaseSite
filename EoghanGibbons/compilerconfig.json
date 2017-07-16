@@ -2,5 +2,9 @@
   {
     "outputFile": "Content/Custom/Styles/Site.css",
     "inputFile": "Content/Custom/Styles/Site.less"
+  },
+  {
+    "outputFile": "bower_components/phaser-ce/Gruntfile.es5.js",
+    "inputFile": "bower_components/phaser-ce/Gruntfile.js"
   }
 ]

@@ -49,6 +49,30 @@
       <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Google.Apis, Version=1.26.2.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.26.2\lib\net45\Google.Apis.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.26.2.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.26.2\lib\net45\Google.Apis.Auth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices, Version=1.26.2.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.26.2\lib\net45\Google.Apis.Auth.PlatformServices.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.26.2.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.26.2\lib\net45\Google.Apis.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Apis.Drive.v3, Version=1.26.2.862, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Drive.v3.1.26.2.862\lib\net45\Google.Apis.Drive.v3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices, Version=1.26.2.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.26.2\lib\net45\Google.Apis.PlatformServices.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -1656,6 +1680,11 @@
     <Content Include="bower_components\socket.io\test\fixtures\server-close.js" />
     <Content Include="bower_components\socket.io\test\socket.io.js" />
     <Content Include="bower_components\socket.io\test\support\doge.jpg" />
+    <Content Include="bower_components\underscore\underscore-min.js" />
+    <Content Include="bower_components\underscore\underscore.js" />
+    <Content Include="bower_components\websocket\build\websocket.min.js" />
+    <Content Include="bower_components\websocket\lib\websocket.js" />
+    <Content Include="bower_components\websocket\sever.js" />
     <Content Include="Content\Custom\Scripts\WebsocketClient.js" />
     <Content Include="Content\Custom\Styles\Site.css">
       <DependentUpon>Site.less</DependentUpon>
@@ -1665,57 +1694,36 @@
     </Content>
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <Content Include="Content\Fonts\Shine Terms of Use End User Lisence Agreement.txt" />
-    <Content Include="Content\Games\EoghansAdventure\Commands\Commands.js" />
-    <Content Include="Content\Games\EoghansAdventure\components\aiInputComponent.js" />
-    <Content Include="Content\Games\EoghansAdventure\components\animationComponent.js" />
-    <Content Include="Content\Games\EoghansAdventure\components\doorComponent.js" />
-    <Content Include="Content\Games\EoghansAdventure\components\harmfulComponent.js" />
-    <Content Include="Content\Games\EoghansAdventure\components\hudComponent.js" />
-    <Content Include="Content\Games\EoghansAdventure\components\itemComponent.js" />
-    <Content Include="Content\Games\EoghansAdventure\components\physicsComponent.js" />
-    <Content Include="Content\Games\EoghansAdventure\components\playerComponent.js" />
-    <Content Include="Content\Games\EoghansAdventure\components\soundsComponent.js" />
-    <Content Include="Content\Games\EoghansAdventure\components\statComponent.js" />
-    <Content Include="Content\Games\EoghansAdventure\components\timerComponent.js" />
-    <Content Include="Content\Games\EoghansAdventure\events\events.js" />
-    <Content Include="Content\Games\EoghansAdventure\Helpers\CommandCaller.js" />
-    <Content Include="Content\Games\EoghansAdventure\Helpers\DatabaseHelper.js" />
-    <Content Include="Content\Games\EoghansAdventure\Helpers\GameStateManager.js" />
-    <Content Include="Content\Games\EoghansAdventure\Helpers\NetworkManager.js" />
-    <Content Include="Content\Games\EoghansAdventure\objects\entity.js" />
-    <Content Include="Content\Games\EoghansAdventure\plugins\pathfinding.js" />
-    <Content Include="Content\Games\EoghansAdventure\states\boot.js" />
-    <Content Include="Content\Games\EoghansAdventure\states\Game.js" />
-    <Content Include="Content\Games\EoghansAdventure\states\GameStates\Game.js" />
-    <Content Include="Content\Games\EoghansAdventure\states\menu.js" />
-    <Content Include="Content\Games\EoghansAdventure\states\preload.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\Ball.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\Brick.js" />
-    <Content Include="Content\Games\Library\FPSMeter.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\Game.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\GameLoopManager.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\InputManager.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\JareUtils.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\Main.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\Menu.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\MessageHandler.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\MultiPlayerGame.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\Player.js" />
-    <Content Include="Content\Games\MultiplayerBreakout\Prize.js" />
-    <Content Include="Content\Games\Library\Client.js" />
-    <Content Include="Content\Games\LonelyRoadAhead\Game.js" />
-    <Content Include="Content\Games\LonelyRoadAhead\GameScene.js" />
-    <Content Include="Content\Games\LonelyRoadAhead\Menu.js" />
-    <Content Include="Content\Games\LonelyRoadAhead\MenuScene.js" />
-    <Content Include="Content\Games\LonelyRoadAhead\MessageHandler.js" />
-    <Content Include="Content\Games\LonelyRoadAhead\Player.js" />
-    <Content Include="Content\Games\LonelyRoadAhead\Scene.js" />
-    <Content Include="Content\Games\LonelyRoadAhead\SceneManager.js" />
-    <Content Include="Content\Games\LonelyRoadAhead\Splash.js" />
-    <Content Include="Content\Games\LonelyRoadAhead\SplashScene.js" />
-    <Content Include="Content\Games\Snake\Game.js" />
-    <Content Include="Content\Games\Snake\Main.js" />
-    <Content Include="Content\Games\Snake\Player.js" />
+    <Content Include="Content\Games\Library\Commands\Commands.js" />
+    <Content Include="Content\Games\Library\Components\Input\Ai.js" />
+    <Content Include="Content\Games\Library\Components\gfx\Animation.js" />
+    <Content Include="Content\Games\Library\Components\BaseComponent.js" />
+    <Content Include="Content\Games\EoghansAdventure\Components\doorComponent.js" />
+    <Content Include="Content\Games\EoghansAdventure\Components\harmfulComponent.js" />
+    <Content Include="Content\Games\EoghansAdventure\Components\hudComponent.js" />
+    <Content Include="Content\Games\EoghansAdventure\Components\itemComponent.js" />
+    <Content Include="Content\Games\Library\Components\PhysicsComponent.js" />
+    <Content Include="Content\Games\Library\Components\Input\Player.js" />
+    <Content Include="Content\Games\EoghansAdventure\Components\soundsComponent.js" />
+    <Content Include="Content\Games\EoghansAdventure\Components\statComponent.js" />
+    <Content Include="Content\Games\EoghansAdventure\Components\timerComponent.js" />
+    <Content Include="Content\Games\Library\Helpers\CommandCaller.js" />
+    <Content Include="Content\Games\Library\Helpers\DatabaseHelper.js" />
+    <Content Include="Content\Games\Library\Helpers\GameStateManager.js" />
+    <Content Include="Content\Games\Library\Helpers\NetworkManager.js" />
+    <Content Include="Content\Games\Library\objects\entity.js" />
+    <Content Include="Content\Games\Library\objects\Game.js" />
+    <Content Include="Content\Games\Library\plugins\pathfinding.js" />
+    <Content Include="Content\Games\Library\states\BaseStates\Load.js" />
+    <Content Include="Content\Games\Library\states\BaseStates\LocalGame.js" />
+    <Content Include="Content\Games\Library\states\BaseStates\Menu.js" />
+    <Content Include="Content\Games\Library\states\Helpers\GameStateManager.js" />
+    <Content Include="Content\Games\Library\states\State.js" />
+    <Content Include="Content\Games\MultiplayerBreakout\Assets\Paddle.png" />
+    <Content Include="Content\Games\MultiplayerBreakout\States\Boot.js" />
+    <Content Include="Content\Games\MultiplayerBreakout\MultiPlayerBreakout.js" />
+    <Content Include="Content\Games\MultiplayerBreakout\States\MainMenu.js" />
+    <Content Include="Content\Games\MultiplayerBreakout\States\SinglePlayer.js" />
     <Content Include="Content\Images\galaxyWallpaper.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -1759,6 +1767,9 @@
     <Folder Include="App_Data\" />
     <Folder Include="bower_components\phaser-ce\resources\Project Templates\Webpack\build\" />
     <Folder Include="Content\Custom\Styles\Less\Mixins\" />
+    <Folder Include="Content\Games\Heartbeat\" />
+    <Folder Include="Content\Games\LonelyRoadAhead\" />
+    <Folder Include="Content\Games\Snake\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -2351,6 +2362,11 @@
     <Content Include="Content\Lib\Less\Font-Awesome\variables.less" />
     <Content Include="Content\Custom\Styles\Site.less" />
     <Content Include="Content\Custom\Styles\Less\MyVariables.less" />
+    <Content Include="bower_components\underscore\.bower.json" />
+    <Content Include="bower_components\underscore\bower.json" />
+    <Content Include="bower_components\underscore\LICENSE" />
+    <Content Include="bower_components\underscore\README.md" />
+    <Content Include="bower_components\underscore\underscore-min.map" />
     <Content Include="bower_components\socket.io\.bower.json" />
     <Content Include="bower_components\socket.io\.github\ISSUE_TEMPLATE.md" />
     <Content Include="bower_components\socket.io\.github\PULL_REQUEST_TEMPLATE.md" />
@@ -2392,6 +2408,11 @@
     <Content Include="bower_components\socket.io\package.json" />
     <Content Include="bower_components\socket.io\Readme.md" />
     <Content Include="bower_components\socket.io\test\fixtures\big.json" />
+    <Content Include="bower_components\websocket\.bower.json" />
+    <Content Include="bower_components\websocket\bower.json" />
+    <Content Include="bower_components\websocket\Gruntfile.coffee" />
+    <Content Include="bower_components\websocket\package.json" />
+    <Content Include="bower_components\websocket\README.md" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>

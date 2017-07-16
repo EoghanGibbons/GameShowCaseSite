@@ -12,6 +12,10 @@ namespace BuisnessLayer.Repositories
         private UserRepository _users;
         public UserRepository Users => this._users ?? (this._users = new UserRepository());
 
+        private GenericGoogleDriveRepository googleDriveRepository;
 
+        public GenericGoogleDriveRepository GoogleDriveRepository => this.googleDriveRepository ??
+                                                                     (this.googleDriveRepository =
+                                                                         new GenericGoogleDriveRepository());
     }
 }

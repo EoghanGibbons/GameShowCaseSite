@@ -43,11 +43,16 @@
     <Compile Include="Entities\Base.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\GenericGoogleDriveRepository.cs" />
     <Compile Include="Repositories\GenericRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GoogleDriveAccess\GoogleDriveAccess.csproj">
+      <Project>{0a181950-9394-452b-8b35-104efc40c345}</Project>
+      <Name>GoogleDriveAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SiteEntities\DataAccessLayer.csproj">
       <Project>{b2091dab-750a-40a4-9cd8-d96fe1c4c510}</Project>
       <Name>DataAccessLayer</Name>
